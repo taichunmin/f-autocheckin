@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     # timezone: UTC
-    - cron: '30 7 * * *'
+    - cron: '30 0 * * *'
 
 jobs:
   deploy:
